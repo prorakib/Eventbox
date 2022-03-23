@@ -1,0 +1,212 @@
+/* Eventbox - Digital Conference HTML Template */
+
+@media only screen and (max-width: 1439px){
+	.main-header .header-upper .logo-box{
+		position: relative;
+		float: left;
+		left: 0;
+	}
+	.nav-outer .mobile-nav-toggler {
+	display: none;
+}
+	.footer-gallery-list {
+	padding: 0px 30px;
+}
+	
+}
+
+@media only screen and (max-width: 1340px){
+	.main-header .btn-box {
+	right: 98px;
+}
+	.main-header .header-upper{
+		padding:0px 0px;	
+	}
+	
+	.main-slider h2,
+	.banner-section h2{
+		font-size:72px;
+		line-height:1em;	
+	}
+
+.main-header .btn-box {
+	right: 65px;
+}
+.about-section .content-column .sec-title h2 {
+	font-size: 30px;
+	line-height: 50px;
+}
+
+
+}
+
+
+@media only screen and (max-width: 1139px){
+
+.banner-carousel .content-box h2 {
+	font-size: 50px;
+}
+.banner-carousel .content-box .info-list li {
+	font-size: 14px;
+}
+}
+
+@media only screen and (min-width: 768px){
+	.main-menu .navigation > li > ul,
+	.main-menu .navigation > li > .mega-menu,
+	.main-menu .navigation > li > ul > li > ul{
+		display:block !important;
+		visibility:hidden;
+		opacity:0;
+	}
+	
+}
+
+@media only screen and (max-width: 1024px){
+	.main-menu .navigation > li > a {
+	font-size: 14px;
+}
+	.main-header .btn-box {
+	right: 30px;
+}
+.countdown-section .date-column {
+	padding-top: 0px;
+	width: 100%;
+	text-align: center;
+	margin-bottom: 20px;
+}
+.about-section .image-column .image-1::before {
+	height: 380px;
+}
+.schedule-section .schedule-tabs .tab-btn {
+	width: 100%;
+	margin-bottom: 40px;
+}
+.schedule-block .inner-box {
+	width: 100%;
+}
+.schedule-block .inner::before {
+	display: none;
+}
+.schedule-block .inner::after {
+	display: none;
+}
+.news-block .post-info li {
+	 margin-right: 0px;
+}
+.testimonial-heading h4 {
+	font-size: 27px;
+}
+.footer-gallery-list {
+	padding: 0px 5px;
+}
+}
+
+@media only screen and (max-width: 768px){
+.main-header .main-menu {
+	display: none;
+}
+.nav-outer .mobile-nav-toggler {
+	display: block;
+}
+.main-header .btn-box {
+	display: none;
+}
+.main-header .main-menu {
+	display: none;
+	}
+	.nav-outer .mobile-nav-toggler {
+		display: block;
+	}
+	.main-header .btn-box {
+		display: none;
+	}
+	.main-header .header-upper .nav-outer {
+		float: right;
+	}
+.countdown-section .outer-box {
+	padding: 70px 120px 45px;
+}
+.about-section .image-column .image-1::before {
+	display: none;
+}
+.about-section .content-column .inner-column {
+	padding-top: 70px;
+}
+.sec-title .title {
+	font-size: 14px;
+}
+.about-section .content-column .sec-title h2 {
+	font-size: 27px;
+	line-height: 35px;
+}
+.about-section .content-column .sec-title .text {
+	font-size: 15px;
+	line-height: 20px;
+}
+.about-section .content-column .sec-title {
+	position: relative;
+	margin-bottom: 14px;
+}
+.about-section .image-column .image-box {
+	padding-bottom: 80px;
+	padding-left: 80px;
+}
+.schedule-section .schedule-tabs .tab-btn {
+	padding: 14px 35px;
+}
+.main-header .header-upper .nav-outer {
+	float: right;
+}
+}
+
+@media only screen and (max-width: 599px){
+
+}
+
+@media only screen and (max-width: 479px) {
+
+	
+	.main-header .btn-box{
+		display:none;
+	}
+	.countdown-section .outer-box {
+	padding: 70px 40px 45px;
+}
+	.banner-carousel .owl-next, .banner-carousel .owl-prev {
+	display: none;
+}
+.banner-carousel .content-box .title {
+	font-size: 15px;
+}
+.banner-carousel .content-box h2 {
+	font-size: 28px;
+	line-height: 35px;
+	margin-bottom: 35px;
+}
+.banner-carousel .content-box .info-list li {
+	font-size: 16px;
+	margin-bottom: 10px;
+}
+.about-section .image-column .image-box {
+	padding-bottom: 100px;
+}
+.about-section .image-column .image-1::before {
+	display: none;
+}
+.schedule-section .schedule-tabs .tab-btn {
+	margin-bottom: 40px;
+}
+.register-form button, .schedule-block .inner-box {
+	width: 100%;
+}
+.schedule-block.even .inner-box .inner, .schedule-block .inner-box .inner {
+	margin: 0;
+}
+.testimonial-heading h4 {
+	font-size: 25px;
+}
+.footer-gallery-list {
+	padding: 0px 40px;
+}
+}
